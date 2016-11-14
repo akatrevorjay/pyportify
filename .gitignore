@@ -11,6 +11,8 @@ scripts/
 venv/
 .venv/
 .vscode/
+pip-selfcheck.json
 pyportify.egg-info
 README.rst
 pyportify.yml
+google_playlists.pickle
