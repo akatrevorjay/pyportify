@@ -3,7 +3,14 @@ tmp
 *.pyc
 .idea
 .tox
-build
-dist
+build/
+dist/
+include/
+lib/
+scripts/
+venv/
+.venv/
+.vscode/
 pyportify.egg-info
 README.rst
+pyportify.yml
