@@ -65,6 +65,7 @@ def start():
             log.info("Go to {0} and get an oauth token".format(OAUTH_URL))
             conf['spotify_token'] = input("Enter Spotify oauth token: ")
 
+        logged_in = None #clear old status
         s = SpotifyClient(session, conf['spotify_token'])
 
         logged_in = yield from s.loggedin()
